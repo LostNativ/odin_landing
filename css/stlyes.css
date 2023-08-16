@@ -17,5 +17,26 @@
     padding: 20px 0;
     width: 900px;
     justify-content: space-around;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
+.header-logo{
+    color: #F9FAF8 ;
+    font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-link-one{
+    margin-left: 20px;
+}
+
+.header-link-two{
+    margin-left: 20px;
+}
+.header-link-three{
+    margin-left: 20px;
+}
