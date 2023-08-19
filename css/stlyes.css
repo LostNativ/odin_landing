@@ -1,5 +1,7 @@
 /* Universal styling */
 *{
+   font-family: 'Courier New', Courier, monospace
+   ;
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -118,4 +120,88 @@ margin-left: 20PX;
     font-weight: bolder;
     color: #1f2937;
     justify-content: center;
+}
+
+
+/* Quote section */
+
+.quote-container{
+    justify-content: center;
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.quotation{
+    display: flex;
+  
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 900px;
+    padding-top: 20px;
+
+}
+.quote-author{
+    display: flex;
+    justify-content: end;
+    width: 900px;
+    padding-top: 10px 0;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+/* Call to action */
+.call-to-action-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.call-to-action{
+    justify-content: space-around;
+    display: flex;
+    background-color: #3883F6;
+    padding: 20px 0;
+    width: 900px;
+    color: #fff;
+
+
+}
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+   
+}
+
+.call-button{
+    margin-left: 20PX;
+    background-color: #3883;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px;
+    color:  white;
+    font-weight: bold;
+    border-radius: 12px;
+    width: fit-content;
+    border-color: #fff;
+}
+
+/* Fotor Styling */
+.footer{
+    padding: 20px 0;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
