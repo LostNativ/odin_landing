@@ -84,6 +84,7 @@
 }
 .hero-secondary-text{
     margin-left: 20px;
+    padding-bottom: 15px;
 }
 .hero-image{
     margin-left: 20px; 
@@ -100,4 +101,21 @@ margin-left: 20PX;
  font-weight: bold;
  border-radius: 12px;
  width: fit-content;
+}
+
+/* Conent Section Styling */
+
+.infomation-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.info-text{
+    padding: 20px o;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
 }
