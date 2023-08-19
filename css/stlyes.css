@@ -105,7 +105,7 @@ margin-left: 20PX;
  width: fit-content;
 }
 
-/* Conent Section Styling */
+/* Infomation Section Styling */
 
 .infomation-container{
     background-color: #fff;
@@ -122,6 +122,26 @@ margin-left: 20PX;
     justify-content: center;
 }
 
+.info-grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.info-grid{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-grid-item{
+    justify-self: center;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+}
 
 /* Quote section */
 
